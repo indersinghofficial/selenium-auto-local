@@ -13,6 +13,7 @@ public class FirstTest {
 		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 		Thread.sleep(4000);
 		LoginPageA loginpageA=new LoginPageA(driver);
+		driver.quit();
 	}
 	
 }
